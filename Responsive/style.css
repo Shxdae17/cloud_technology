@@ -1,0 +1,85 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+/*----- NAVIGATION TABS -----*/
+.navTabs{
+    background-color: darkkhaki;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.links{
+    display: inline-block;
+    padding: 1em 3em;
+    color: whitesmoke;
+}
+.links:hover{
+    color: darksalmon;
+    background-color:beige;
+    font-weight: bolder;
+}
+/*----- INTRO IMAGE -----*/
+.intro{
+    box-shadow: 2px 2px 5px grey;
+    margin: 7em auto;
+    border-radius: 2em;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.intro_pg{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightgreen;
+}
+
+/*----- CARDS -----*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 0.2em;
+    overflow: hidden;
+    margin: 2%;
+    position:relative;
+}
+.cardTitle{
+    padding: 0.5em 1em;
+    color: gold;
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color:brown;
+    margin-bottom: 5em;
+}
+.cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color:burlywood ;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    padding: 1em;
+    text-align: center;
+}
+.card:hover{
+    background-color: cornsilk;
+    color: darksalmon;
+    text-decoration: none;
+    font-weight: bolder;
+}
