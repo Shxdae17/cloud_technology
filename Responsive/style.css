@@ -46,6 +46,9 @@ img{
 }
 
 /*----- CARDS -----*/
+.title{border-bottom: ridge 1px darkkhaki;
+    padding-top: 3em;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -82,4 +85,11 @@ img{
     color: darksalmon;
     text-decoration: none;
     font-weight: bolder;
+}
+/*-----FOOTER-----*/
+.copyrighted{
+    background-color: chartreuse;
+    color: chocolate;
+    padding:1em ;
+    text-align: center;
 }
