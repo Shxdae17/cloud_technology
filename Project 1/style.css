@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    text-align: center;
+    color: darkorange;
+}
+.navBar{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-items:space-evenly;
+}
+.nav_link{
+    color: firebrick;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color:black;
+    background-color: bisque;
+    font-weight: 900;
+}
+.img_container{
+    width: 50%;
+    margin: 0.5em;
+    position: relative;
+    background-color: darkgreen;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+.img_container2{
+    width: 60%;
+    margin: 0.5em;
+    position: relative;
+    background: cornflowerblue;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 5px blue;
+}
+.img_container3{
+    width: 60%;
+    margin: 0.5em;
+    position: relative;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+} 
+.img_container4{
+    width: 30%;
+    margin: 1em;
+    position: relative;
+    background-color: palevioletred;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px purple;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_container_right{
+    width: 60%;
+}
+.Container{
+    width: auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card2{
+    overflow: hidden;
+    position: relative;
+}
+.card3{ 
+    overflow: hidden;
+    position: relative;
+}
+.card4{
+    overflow: hidden;
+    position: relative;
+}
+footer{
+    text-align: left;
+    background-color: azure;
+    padding: 1em;
+}
