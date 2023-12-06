@@ -1,0 +1,14 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.BAB{
+    position: absolute;
+    left: 20%;
+    top: 200%;
+}
+.BABA{
+    position: absolute;
+    right: 20%;
+    top: 200%;
+}
