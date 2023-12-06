@@ -1,0 +1,106 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.title2{
+    text-align: center;
+    color: blue;
+}
+.back_button{
+    position: absolute;
+    background-color:lightpink;
+    border-radius: 5px;
+    margin: 1em;
+    text-decoration: none;
+    font-size: large;
+}
+.back_button:hover{
+    font-size: larger;
+    font-weight: 900 bolder;
+    color:greenyellow;
+    transform: scale(0.95);
+}
+.img{
+    position: relative;
+    width: 70%;
+    margin: 2%;
+    margin-left: 15em;
+    box-shadow: 2px 2px 5px black;
+    padding: 1em;
+    background-color: aliceblue;
+}
+.pg{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    color:darkred;
+    font-size: large;
+    background-color:rgba(100, 148, 237, 0.551);
+    border-radius: 10px;
+    font-size: large ;
+    font-weight:bolder ;
+    font-family: serif 	"Copperplate" ;
+}
+/*-----CARDS------*/
+.sec_title{
+    color:darkslateblue;
+    border-bottom: ridge 1px black;
+    padding-top: 3em;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 0.2em;
+    overflow: hidden;
+    margin: 2%;
+    position:relative;
+}
+.card_title1{
+    padding: 0.5em 1em;
+    color:skyblue
+}
+
+.card_title2{
+    padding: 0.5em 1em;
+    color:orangered;
+}
+.card_title3{
+    padding: 0.5em 1em;
+    color:pink;
+}
+.img1, .img2, .img3{
+    width: 100%;
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color:gold;
+    margin-bottom: 5em;
+    font-size: 25px;
+}
+.cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color:burlywood ;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: darkmagenta;
+    font-weight: 900 bold;
+}
+.card:hover{
+    background-color: cornsilk;
+    color:darkred;
+    text-decoration: none;
+    font-weight: 900 bolder;
+    font-size: larger;
+    margin: 1em;
+    transform: scale(0.95);
+}

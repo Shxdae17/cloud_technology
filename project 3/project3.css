@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.ME{
+    transition-duration: 3s;
+    animation: 2s anim-lineUp ease-in-out infinite;
+}
+.P1{
+    transition-duration: 0.4s;
+}
+.P1:hover{
+    transform: scale(0.95);
+    transition-duration: 0.4s;
+}
+.P2{
+    transition-duration: 0.4s;
+}
+.P2:hover{
+    transform: scale(0.95);
+    transition-duration: 0.4s;
+}
